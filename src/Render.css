@@ -1,24 +1,38 @@
 .render {
   text-align: center;
-  color: #B84181;
-  text-shadow: #FAA262 2px 2px;
+  color: #D88C9A;
+  text-shadow: #AB5D46 2px 2px;
+  justify-content: center;
 }
 .main-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-a {
-  color: #B84181;
+.main-container a {
+  color: #D88C9A;
+  text-shadow: #8E7DBE 1px 1px;
+  padding-left: 1em;
+  font-size: 3em;
 }
-a:hover {
-  color: #FAA262;
-  text-shadow: #B84181 1px 1px;
+.main-container a:hover {
+  color: #8E7DBE;
+  text-shadow: #D88C9A 1px 1px;
 }
 #buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 36px;
+}
+#buttons a {
+  color: #D88C9A;
+  text-shadow: #8E7DBE 1px 1px;
+  padding-left: 1em;
+}
+#buttons a:hover {
+  color: #8E7DBE;
+  text-shadow: #D88C9A 1px 1px;
 }
 .links {
   display: flex;
@@ -27,11 +41,12 @@ a:hover {
 }
 .container-each {
   width: 88vw;
-  /* height: 30rem; */
   display: flex;
   flex-direction: column;
-  /* overflow: scroll; */
-  margin: 3em;
+  margin: 1em;
+}
+.container-each h3 {
+  font-size: 25px;
 }
 #resume {
   width: 86vw;
@@ -42,14 +57,4 @@ iframe {
 }
 img {
   width: 85vw;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
